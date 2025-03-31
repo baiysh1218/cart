@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d32f2f;
+  color: white;
+  padding: 0 40px;
+  position: absolute;
+  bottom: -100px;
+  height: 100px;
+  width: 100%;
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    a {
+      color: white;
+      text-decoration: none;
+      margin-bottom: 8px;
+      transition: opacity 0.3s;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

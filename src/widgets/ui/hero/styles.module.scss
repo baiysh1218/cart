@@ -1,0 +1,14 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  background-image: url(../../../assets/heroBg.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  h1 {
+    font-size: 42px;
+  }
+}

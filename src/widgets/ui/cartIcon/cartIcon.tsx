@@ -1,9 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import Icon from "../../assets/CartIcon.svg";
-import { selectTotalItems } from "../../entities/service/cartSlice";
-import { useAppSelector } from "../../shared/hooks/hooks";
+import Icon from "../../../assets/CartIcon.svg";
+import { APP_ROUTES } from "../../../shared/constants";
+import { useAppSelector } from "../../../shared/hooks/hooks";
+import { selectTotalItems } from "../../../entities/service/cartSlice";
+
 import styles from "./styles.module.scss";
-import { APP_ROUTES } from "../../shared/constants";
 
 export const CartIcon = () => {
   const totalItems = useAppSelector(selectTotalItems);

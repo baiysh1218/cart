@@ -1,13 +1,24 @@
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(295px, 1fr));
-  gap: 24px;
-  justify-items: center;
-  width: 100%;
-  margin-bottom: 100px;
+.products {
+  padding: 4rem;
+  padding-top: 2rem;
+
+  .title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+  }
 }
-.title {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: #333;
+
+.loader,
+.error,
+.empty {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
 }
